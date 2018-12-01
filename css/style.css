@@ -1,0 +1,111 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.slika1, .slika2, .slika3, .slika4, .slika5, .slika6{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.slika1{
+  background-image: url('../slike/slika1.jpeg');
+  min-height: 100%;
+}
+
+.slika1 a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.slika2{
+  background-image: url('../slike/slika2.jpeg');
+  min-height: 400px;
+}
+
+.slika2 a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.slika3{
+  background-image: url('../slike/slika3.jpeg');
+  min-height: 400px;
+}
+
+.slika3 a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.slika4{
+  background-image: url('../slike/slika4.jpeg');
+  min-height: 400px;
+}
+
+.slika4 a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.slika5{
+  background-image: url('../slike/slika5.jpeg');
+  min-height: 400px;
+}
+
+.slika5 a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.slika6{
+  background-image: url('../slike/slika6.jpeg');
+  min-height: 400px;
+}
+
+.slika6 a{
+  text-decoration: none;
+  color:inherit;
+}
+
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light{
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.text1{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.text1 .border{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}

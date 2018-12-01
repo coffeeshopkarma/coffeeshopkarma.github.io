@@ -1,0 +1,61 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.slika1, .slika2{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.slika1{
+  background-image: url('../slike/slika1c.jpeg');
+  min-height: 400px;
+}
+
+.slika1 a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.section-dark ul{
+  list-style-type: none;
+}
+
+
+.text1{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.text1 .border{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
